@@ -1,0 +1,91 @@
+body{
+    background: rgb(0, 0, 0);  
+}
+
+.swg{
+    color:rgba(246, 254, 246, 0.974);
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+#navbars{
+    background-color: #b52121
+}  
+.navbar {
+  margin-bottom: 0;
+  margin: 50px;
+  margin-top: 0;
+  
+}
+.card{
+  padding: 1rem;
+  margin-bottom: 30px;
+  border: 10px;
+  background: #575757;
+  color: #ffffff;
+
+}
+#personaje{
+  background: #ffffff;
+  color:#000000;
+}
+
+.card h3{
+  color: #000000;
+  text-align: center;
+  padding: 0px;
+}
+.card h3 h5{
+  line-height: 0px;
+  color: #000000;
+}
+.card strong{
+  color: #000000;
+}
+.card p{
+  text-align: justify;
+}
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+h4{
+  text-align: center;
+  color: #ffffff;
+}
+
+#episodios{
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+#episodios h4{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: #ffffff;
+}
+#botonesi{
+  align-content: center;
+}
+.crawl {
+  /* Position the element so we can adjust the top property in the animation */
+  position: relative;
+  /* Making sure the text is fully off the screen at the start and end of the animation */
+  top: -100px;
+  /* Defines the skew origin at the very center when we apply transforms on the animation */
+  transform-origin: 50% 100%;
+}
+
+#dark{
+  align-content: center;
+}
+h3 {
+  color: #ffffff;
+}

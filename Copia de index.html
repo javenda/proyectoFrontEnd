@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Proyecto Front End SW</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/starwars-glyphicons/css/starwars-glyphicons.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        <a class="nav-link" href="#"><i class="swg swg-sw-alt-2 swg-2x"></i> Home</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        <a class="nav-link" href="#"><i class="swg swg-sw-alt swg-2x"></i> Episodios</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        
+                        <a class="nav-link" href="#"> <i class="swg swg-darthvader-5 swg-2x"></i> Personajes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        
+                        <a class="nav-link" href="#"> <i class="swg swg-deathstar-3 swg-2x"></i>Planetas </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        <a class="nav-link" href="#"><i class="swg swg-falcon-3 swg-2x"></i> Vehículos </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="d-flex flex-column text-center">
+                        <a class="nav-link" href="#"><i class="swg swg-stardestroyer swg-2x"></i> Cruceros</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <img src="images/logo.png" alt=¨foto¨  class="rounded mx-auto d-block" alt="Responsive image" width="600px">
+    
+    
+    <main role="main">
+        <div class="album text-muted">
+            <div class="container ">
+                <div class="row" id="contenido">
+                    <div class="card col-md-6 col-sm-12 col-3 col-lg-3 rounded mx-auto d-block">
+                       
+                        <img src="images/'+l+'.jpg" alt="Card image" height="350" class="rounded mx-auto d-block" >
+                        <h3> <strong>' + data.results[i].name +'</strong></h3>
+                        <br>
+                        <h5> <strong> Especie / Clasificación </strong></h5>
+                        <h5>' + nombreEspecie(data.results[i].species) + '</h5> 
+                        <h5>' + nombrePlaneta(data.results[i].homeworld) + '</h5>
+                        <h5> <strong>Peliculas: </strong> </h5>
+                        <p>' +nombrePelicula(data.results[i].films[j])} +'</p>
+                        <h5>' +nombreIdioma(data.results[i].especies) + '</h5>
+                        <p class="card-text" id=name> </p>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="container">
+        <div class="row">
+            <div class="text-align:center">
+                <button class="btn btn-primary" id="prev">
+                    Anterior
+                </button>
+                <button class="btn btn-primary" id="next">
+                    Siguiente
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <i class="swg swg-darthvader "></i>
+    <i class="swg swg-reball "></i>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/personajes.js"></script>
+</body>
+</html>
